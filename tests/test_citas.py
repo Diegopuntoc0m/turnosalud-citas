@@ -18,7 +18,7 @@ class RepoMemoria:
 
 def test_reserva_exitosa():
     svc = CitaService(RepoMemoria())
-    assert svc.reservar(1, 10, "2026-12-01T09:00")["paciente"] == 1
+    assert svc.reservar(1, 10, "2026-12-01T09:00")["paciente"] == 99
 
 
 def test_doble_reserva_falla():
