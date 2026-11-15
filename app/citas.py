@@ -16,3 +16,4 @@ class CitaService:
         }
         self.repo.guardar(cita)
         return cita
+    
