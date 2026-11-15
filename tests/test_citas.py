@@ -26,4 +26,3 @@ def test_doble_reserva_falla():
     svc.reservar(1, 10, "2026-12-01T09:00")
     with pytest.raises(HorarioNoDisponible):
         svc.reservar(2, 10, "2026-12-01T09:00")
-       
